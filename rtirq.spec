@@ -1,7 +1,7 @@
 Name:		rtirq
 Summary:	Realtime IRQ thread system tunning
 Version:	20120505
-Release:	1
+Release:	2
 License:	GPLv2
 URL:		http://www.rncbc.org/jack/#rtirq
 Group:		System/Configuration/Boot and Init
