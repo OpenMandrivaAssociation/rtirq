@@ -3,7 +3,7 @@ Summary:	Realtime IRQ thread system tunning
 Version:	20120505
 Release:	2
 License:	GPLv2
-URL:		http://www.rncbc.org/jack/#rtirq
+URL:		https://www.rncbc.org/jack/#rtirq
 Group:		System/Configuration/Boot and Init
 Source0:	%{name}-%{version}.tar.gz
 BuildArch:	noarch
