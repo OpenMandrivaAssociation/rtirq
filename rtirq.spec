@@ -10,7 +10,7 @@ Name:		rtirq
 Version:	%{commit_date}.48.1
 Release:	1
 License:	GPL-2.0+
-Source0:	https://github.com/rncbc/rtirq/archive/%{commit_id}.tar.gz#/%{name}-%{version}.tar.gz
+Source0:	https://github.com/rncbc/%{name}/archive/%{commit_id}.tar.gz#/%{name}-%{version}.tar.gz
 BuildArch:	noarch
 
 BuildRequires:	coreutils
@@ -31,8 +31,8 @@ enabled kernel configuration.
 %install
 
 install -d %{buildroot}%{_sbindir}
-install -vD %name.sh      -m 0755 %{buildroot}%{_sbindir}/rtirq
-install -vD %name.conf    -m 0644 %{buildroot}%{_sysconfdir}/rtirq.conf
+install -vD %name.sh      -m 0755 %{buildroot}%{_sbindir}/%name
+install -vD %name.conf    -m 0644 %{buildroot}%{_sysconfdir}/%name.conf
 install -vD %name.service -m 0644 %{buildroot}%{_unitdir}/%name.service
 install -vD %name-resume.service -m 0644 %{buildroot}%{_unitdir}/%name-resume.service
 
